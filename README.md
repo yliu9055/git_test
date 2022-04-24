@@ -1,3 +1,3 @@
-# git_test
+# HTML Exercise
 
-My first GitHub repo!
+Practice writing some html code
