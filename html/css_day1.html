@@ -10,44 +10,115 @@
     <style>
         /* css注释 */
         
-        p {
-            color: red;
-            /* font: italic 700 30px 宋体; */
-            font: 30px;
-            text-indent: 2em;
+        body {
+            background-color: #f5f5f5;
         }
         
-        .father {
+        article {
+            width: 800px;
+            margin: auto;
+        }
+        
+        .centered {
             text-align: center;
-            vertical-align: center;
-            border: solid;
-            height: 800px;
-            width: 1200px;
         }
         
-        .child {
-            border: solid blue;
-        }
-        
-        .child2 {
-            border: solid red;
-            height: 400px;
-            width: 300px;
+        .date {
+            color: #666;
+            margin-right: 0.5em;
         }
         
         a {
+            color: aqua;
             text-decoration: none;
+        }
+        
+        p {
+            margin: 1em;
+            text-indent: 2em;
+            line-height: 1.5em;
+        }
+        
+        .product-list {
+            display: block;
+            outline: 1px solid;
+            text-align: center;
+        }
+        
+        .product-list ul li {
+            height: 300px;
+            width: 234px;
+            background-color: white;
+            margin: 10px 10px;
+            list-style: none;
+            display: inline-block;
+        }
+        
+        .item-img {
+            width: 160px;
+        }
+        
+        .item-img-container {
+            height: 160px;
+            overflow: hidden;
+            margin: 30px auto 0;
+            display: block;
+        }
+        
+        .item-name {
+            font: 700 14px/25px sans-serif;
+        }
+        
+        .item-desc {
+            font-size: 12px;
+            line-height: 30px;
+        }
+        
+        .item-price {
+            color: #ffa500;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
-    <div class="father">
-        <span class="child"><img src="https://www.w3schools.com/images/htmlvideoad_footer.png" alt=""></span>
-        <div class="child2">测试文字</div>
-        <a href="">我是超链接</a>
-    </div>
-    <p>这是一些文字Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in quisquam ipsam ratione nesciunt quod ad dolores quidem perferendis veniam, totam, obcaecati fugiat nostrum quia cum. Alias autem nesciunt magni?</p>
+    <article>
+        <h1 class="centered">自然评选改变科学的十大发明</h1>
+        <div class="centered"><span class="date">2077年01月28日14:58</span><a class="source" href="#">新浪财经</a></div>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laudantium nisi delectus accusantium, dolore, soluta hic eveniet nesciunt sunt optio porro consequuntur ab ipsa ex repudiandae dolorum deserunt similique a.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque pariatur vitae at tempora, obcaecati facilis quaerat sit totam doloribus nam voluptate ducimus consequatur ipsam accusantium, praesentium facere earum. Doloremque, necessitatibus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure hic totam sed repudiandae ipsum culpa delectus! Ea adipisci, repellendus, consequuntur accusamus fugit explicabo deleniti, debitis maxime soluta aut facilis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, ducimus eum dolor harum itaque dignissimos nostrum deleniti autem voluptate cum iste odit consequuntur neque saepe voluptatibus, laborum nam nemo odio.</p>
+    </article>
+    <section class="product-list">
+        <ul>
+            <li>
+                <a class="item-img-container"><img class="item-img" src="https://i01.appmifile.com/webfile/globalimg/dongxuechun/k10aproducts.jpg?width=398&height=230" alt=""></a>
+                <div class="item-name">九号平衡车</div>
+                <div class="item-desc">成年人的玩具</div>
+                <div class="item-price">1999元</div>
+            </li>
+            <li>
+                <a class="item-img-container"><img class="item-img" src="https://i01.appmifile.com/webfile/globalimg/dongxuechun/k10aproducts.jpg?width=398&height=230" alt=""></a>
+                <div class="item-name">九号平衡车</div>
+                <div class="item-desc">成年人的玩具</div>
+                <div class="item-price">1999元</div>
+            </li>
+            <li>
+                <a class="item-img-container"><img class="item-img" src="https://i01.appmifile.com/webfile/globalimg/dongxuechun/k10aproducts.jpg?width=398&height=230" alt=""></a>
+                <div class="item-name">九号平衡车</div>
+                <div class="item-desc">成年人的玩具</div>
+                <div class="item-price">1999元</div>
+            </li>
+            <li>
+                <a class="item-img-container"><img class="item-img" src="https://i01.appmifile.com/webfile/globalimg/dongxuechun/k10aproducts.jpg?width=398&height=230" alt=""></a>
+                <div class="item-name">九号平衡车</div>
+                <div class="item-desc">成年人的玩具</div>
+                <div class="item-price">1999元</div>
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>
