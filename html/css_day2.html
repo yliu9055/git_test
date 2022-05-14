@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;   
+            text-decoration: none;
+            color:#333;
+        }
+
+        body{
+            font: 12px/20px "SimSun","Arial Narrow",sans-serif;
+        }
+
+        /* navigation bar */
+       nav{
+           height: 46px;
+           background-color: #fcfcfc;
+           border-top: 3px solid #ff8500;
+           border-bottom: 1px solid #edeef0;
+       }
+
+       .nav-items,
+       .nav-items-right{
+           display: inline-block;
+            line-height: 42px;
+           padding: 0 25px;
+       }
+
+       .nav-items:hover,
+       .nav-items-right:hover{
+            background-color: #edeef0;
+            color:#ff8500;
+       }
+
+       .nav-items{
+           float: left;
+       }
+
+       .nav-items-right{
+           float: right;
+       }
+
+       /* article list */
+       .article-list{
+           width: 360px;
+           border: #ccc 1px solid;
+           padding: 20px 20px 40px;
+           font: 16px sans-serif;
+       }
+
+       .article-list h1{
+            font-weight: bold;
+            line-height: 1.5;
+            font-size: 22px;
+            border-bottom: 1px solid #ccc;
+            color: black;
+       }
+
+       .article-list ul li{
+           padding-left: 28px;
+           height: 50px;
+           line-height: 50px;
+           border-bottom: 1px dashed #ccc;
+           list-style: none;
+           color:#666;
+       }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="" class="nav-items">新浪首页</a><a href="" class="nav-items">新浪首页</a><a href="" class="nav-items">新浪首页</a>
+        <a href="" class="nav-items-right">新浪首页1</a><a href="" class="nav-items-right">新浪首页2</a><a href="" class="nav-items-right">新浪首页3</a>
+
+        
+    </nav>
+    <div class="article-list">
+        <h1>最新文章</h1>
+        <ul>
+            <li><a href="">lorem1</a></li>
+            <li><a href="">lorem2</a></li>
+            <li><a href="">lorem3</a></li>
+            <li><a href="">lorem4</a></li>
+            <li><a href="">lorem5</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
